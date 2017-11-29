@@ -1,3 +1,9 @@
 export default function (context) {
-  context.userAgent = context.isServer ? context.req.headers['user-agent'] : navigator.userAgent
+  if (context.isServer) {
+    if (context.req) {
+      context.userAgent = context.req.headers['user-agent']
+    }
+  } else {
+    context.userAgent = navigator.userAgent
+  }
 }

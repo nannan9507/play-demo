@@ -5,7 +5,9 @@
   "author": "夏创易 <>",
   "private": true,
   "scripts": {
-    "start": "node server/index.js"
+    "build": "nuxt build",
+    "start": "node server/index.js",
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^4.5.0",
@@ -24,6 +26,8 @@
     "babel-eslint": "^7.2.3",
     "babel-preset-stage-0": "^6.24.1",
     "backpack-core": "^0.4.3",
+    "copy-dir": "^0.3.0",
+    "echarts": "^3.8.5",
     "eslint": "^4.3.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-loader": "^1.9.0",
@@ -32,9 +36,11 @@
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
+    "fastclick": "^1.0.6",
     "md5": "^2.2.1",
     "mescroll.js": "^1.2.3",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1"
+    "stylus-loader": "^3.0.1",
+    "ueditor": "^1.2.3"
   }
 }

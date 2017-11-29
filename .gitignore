@@ -3,6 +3,7 @@ node_modules
 
 # logs
 npm-debug.log
+mypackage.json
 
 # Nuxt build
 .nuxt

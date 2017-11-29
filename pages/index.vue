@@ -16,9 +16,9 @@
       <div class="mint-cell-wrapper"></div>
     </a>
 
-    <div style="position: absolute; bottom: 60px; width: 100%; text-align: center">
+    <!--<div style="position: absolute; bottom: 60px; width: 100%; text-align: center">
       made by <b>爱桌游</b>
-    </div>
+    </div>-->
     <tabbar now="剧本列表"></tabbar>
   </div>
 </template>

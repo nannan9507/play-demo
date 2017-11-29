@@ -33,7 +33,7 @@ let config = {
     ['/api', { target: 'http://www.lovezhuoyou.com:81' }]
   ],
   router: {
-    middleware: ['userAgent'],
+    // middleware: ['userAgent'],
   },
   /*
   ** Build configuration

@@ -12,9 +12,10 @@ let config = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    css: [],
     script: [],
   },
+
+  css: [],
   /*
   ** Customize the progress bar color
   */
